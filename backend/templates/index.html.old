@@ -1,0 +1,13 @@
+<html>
+	<head>This is the header of my test website </head>
+	<title>This is the title of my test website </title>
+	<body>
+		This is the main body of my landing page changed on 10/17/23
+		<br />
+		<table>
+			<tr><td>First cell</td><td> second cell </td></tr>
+			<tr><td>First cell</td><td> second cell </td></tr>
+		</table>
+	</body>
+</html>
+

@@ -1,0 +1,10 @@
+I want to record, edit and publish my podcasts on social media
+I want to create a role playing game with different types of characters that I can choose in different setting
+I want to learn programming in Rust with simple coding examples
+I need a tool that can automatically write unit test cases in Python based on my code
+I want to crawl and scrape a website and organize the content in a meaningful way
+I want my python code to be automatically checked for efficiency and best practices
+I want to become a painter of nature
+I need to organize my time across a set of daily activities
+I want to write a novel involing a girl who would not listen to her parents
+I need to easily find the code coverage of my Python unit tests

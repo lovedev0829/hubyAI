@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Readex+Pro&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Mulish&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Arial&display=swap" rel="stylesheet" />
+    <link href="/static/css/main.css" rel="stylesheet" />
+    <link href="/static/css/main.css" rel="stylesheet" />
+    <title>My Global Library of Generative AI Products and Technologies </title>
+  </head>
+
+  <body>
+    <div class="v869_1694">
+      <div class="v869_1695">
+	<div class="v869_1696">
+	  <span class="v870_2525">AI App Marketplace</span>
+	  <div class="v869_1700">
+	    <div class="v869_1701">
+	      <div class="v869_1702">
+	        <div class="v869_1703"> </div>
+	        <div class="v869_1704"></div>
+	      </div>
+            </div>
+	    <span class="v869_1705">Search ( Ctrl + k)</span>
+	  </div>
+        </div>
+        <div class="v869_1706">
+	  <div class="v869_1707"><span class="v869_1708">Submit</span></div>
+        </div>
+        <div class="v869_1709">
+	  <div class="v869_1710">
+	    <div class="v869_1711"></div>
+	    <div class="v869_1712"></div>
+	    <div class="v869_1713">
+              <div class="v869_1714">
+	        <div class="v869_1715"></div>
+	        <div class="v869_1716"></div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="v869_1717">
+	    <div class="v869_1718"></div>
+	    <div class="v869_1719">
+              <div class="v869_1720">
+	        <div class="v869_1721"></div>
+	        <div class="v869_1722"></div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="v869_1723"></div>
+        </div>
+      </div>
+      <div class="v869_1724">
+        <div class="v869_1725">
+	  <div class="v869_1726">
+	    <div class="v869_1727">
+              <div class="v869_1728"></div>
+	      <div class="v869_1729"></div>
+	      <div class="v869_1730"></div>
+	    </div>
+	  </div>
+	  <span class="v869_1731">Apps - New</span>
+        </div>
+        <div class="v869_1732">
+	  <div class="v869_1733">
+            <div class="v869_1734">
+              <div class="v869_1735"></div>
+	      <div class="v869_1736"></div>
+	      <div class="v869_1737"></div>
+	    </div>
+	  </div>
+	  <span class="v869_1738">Marketplace</span>
+        </div>
+      </div>
+    </div>
+    <div class="v869_1745">
+      <div class="v869_1746">
+        <div class="v869_1747"><span class="v869_1748">Products</span></div>
+        <div class="v869_1749">
+	  <div class="v869_1750">
+            <div class="v869_1751">
+	      <div class="v869_1752"></div>
+	    </div>
+	    <span class="v869_1753">Explore</span>
+	  </div>
+        </div>
+      </div>
+    <p> Here is the image</p>
+    <p> I just changed it</p>
+    <img src="/static/images/huby_logo_256.png" />
+    <p> End of image</p>
+    <br />
+    <p> Here is the second image</p>
+    <p> I just changed it</p>
+    <img src="/static/images/my_1723.png" />
+    <p> End of image</p>
+    <br />
+    <p> Here is the third image</p>
+    <p> I just changed it</p>
+    <img src="/static/images/my_logo.png" />
+    <p> End of image</p>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+# This is the unit file for running the vector database as a service. This file needs to be in /etc/systemd/system/ directory
+[Unit]
+Description=Gunicorn instance of huby vector database service
+After=network.target
+
+[Service]
+User=dsharma
+Group=www-data
+WorkingDirectory=/home/dsharma/huby_vectordb_apis
+Environment="GUNICORN_WORKERS=2"
+Environment="GUNICORN_THREADS=4"
+Environment="PATH=/usr/local/bin:/usr/bin:/home/dsharma/huby_vectordb_apis:/home/dsharma/faiss:/home/dsharma/fastText"
+Environment="PYTHONPATH=/home/dsharma/huby_vectordb_apis:/home/dsharma/faiss:/home/dsharma/fastText"
+
+ExecStart=/usr/bin/gunicorn \
+    --workers=2 \
+    --threads=4 \
+    --worker-class=gthread \
+    --worker-tmp-dir=/dev/shm \
+    --max-requests=1000 \
+    --max-requests-jitter=50 \
+    --timeout=120 \
+    --preload \
+    --bind=0.0.0.0:5000 \
+    wsgi:app
+
+MemoryMax=4G
+MemoryHigh=3G
+OOMScoreAdjust=-1000
+LimitNOFILE=65535
+
+#Restart=always
+#RestartSec=5
+#Type=simple
+
+[Install]
+WantedBy=multi-user.target

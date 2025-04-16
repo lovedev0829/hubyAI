@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,800;1,900;1,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@font-face {
+  font-family: 'AlteHaasGrotesk';
+  src: url('./assets/fonts/AlteHaasGroteskRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.poppins {
+  font-family: "Poppins", system-ui;
+}
+
+.Readex {
+  font-family: "Readex Pro", sans-serif;
+}
+
+.mulish {
+  font-family: "Mulish", sans-serif;
+}
+
+.hanken-grotesk {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.trans {
+  transition: 0.4s;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 0px !important;
+}
+
+@media (max-width: 768px) {
+  .react-datepicker-popper {
+    position: absolute;
+    left: -50px !important;
+    top: 0px;
+    transform: translate(302.5px, 36px);
+  }
+}
+
+@media (max-width: 425px) {
+  .react-datepicker-popper {
+    position: absolute;
+    left: -78px !important;
+    top: 0px;
+  }
+}
+
+.slider-main .slick-dots li button:before {
+  content: "" !important;
+  background-color: #a5a5a5;
+  border-radius: 100%;
+  width: 4px !important;
+  height: 4px !important;
+  opacity: 1;
+}
+
+.slider-main .slick-dots li.slick-active button:before {
+  background-color: #fff;
+  opacity: 1;
+  width: 20px !important;
+}
+
+.slider-main .slick-dots li {
+  margin: 0;
+  margin-right: 4px;
+  width: 4px;
+}
+
+.slider-main .slick-dots li button {
+  padding: 0;
+  width: 4px;
+}
+
+.slider-main .slick-dots li.slick-active {
+  margin: 0;
+  margin-right: 4px;
+  width: 20px;
+}
+
+.bg-curation {
+  background-image: url("assets/Images/hubby-curation.png");
+}
+
+.bg-map {
+  background-image: url("assets/Images/map.png");
+  background-size: 100%;
+}
+
+* {
+  font-family: "Poppins", serif;
+}
+
+.bg-banner {
+  background-image: url("../src/assets/Images/banner.png");
+}
+
+.bg-image {
+  background-image: url("../src/assets/Images/image10.png");
+}
+
+.news-image {
+  background-image: url("../src/assets/Images/image11.png");
+}
+
+
+
+.news1-image {
+  background-image: url("../src/assets/Images/image12.png");
+}
+
+.news2-image {
+  background-image: url("../src/assets/Images/image13.png");
+}
+
+.tab-image {
+  background-image: url("../src/assets/Images/image14.png");
+}
+
+.tab1-image {
+  background-image: url("../src/assets/Images/image15.png");
+}
+
+.tab2-image {
+  background-image: url("../src/assets/Images/image16.png");
+}
+
+.Top-result {
+  background-image: url("../src/assets/Images/image24.png");
+}
+
+.toggle-checkbox:checked {
+  @apply: right-0 border-green-400;
+  right: 0;
+  border-color: #f47b31;
+}
+
+.toggle-checkbox:checked+.toggle-label {
+  @apply: bg-green-400;
+  background-color: #f47b31;
+}
+
+/*========================================= loading animation ============================================== */
+
+.loaderSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.loaderSearch span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+  margin: 15px auto;
+  position: relative;
+  background: #fff;
+  box-shadow: -24px 0 #fff, 24px 0 #fff;
+  box-sizing: border-box;
+  animation: shadowPulse 1s linear infinite;
+}
+
+@keyframes shadowPulse {
+  33% {
+    background: #fff;
+    box-shadow: -24px 0 #000, 24px 0 #fff;
+  }
+
+  66% {
+    background: #000;
+    box-shadow: -24px 0 #fff, 24px 0 #fff;
+  }
+
+  100% {
+    background: #fff;
+    box-shadow: -24px 0 #fff, 24px 0 #000;
+  }
+}
+
+/* HTML: <div class="loader"></div> */
+.appDetailsLoader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #000;
+  clip-path: inset(-250%);
+  animation: l28 1s infinite linear;
+}
+
+@keyframes l28 {
+  0% {
+    box-shadow: 0 0 0 0, 40px 0, -40px 0, 0 40px, 0 -40px;
+  }
+
+  10% {
+    box-shadow: 0 0 0 0, 12px 0, -40px 0, 0 40px, 0 -40px;
+  }
+
+  20% {
+    box-shadow: 0 0 0 4px, 0px 0, -40px 0, 0 40px, 0 -40px;
+  }
+
+  30% {
+    box-shadow: 0 0 0 4px, 0px 0, -12px 0, 0 40px, 0 -40px;
+  }
+
+  40% {
+    box-shadow: 0 0 0 8px, 0px 0, 0px 0, 0 40px, 0 -40px;
+  }
+
+  50% {
+    box-shadow: 0 0 0 8px, 0px 0, 0px 0, 0 12px, 0 -40px;
+  }
+
+  60% {
+    box-shadow: 0 0 0 12px, 0px 0, 0px 0, 0 0px, 0 -40px;
+  }
+
+  70% {
+    box-shadow: 0 0 0 12px, 0px 0, 0px 0, 0 0px, 0 -12px;
+  }
+
+  80% {
+    box-shadow: 0 0 0 16px, 0px 0, 0px 0, 0 0px, 0 0px;
+  }
+
+  90%,
+  100% {
+    box-shadow: 0 0 0 0, 40px 0, -40px 0, 0 40px, 0 -40px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+/*========================================================================================================= */
